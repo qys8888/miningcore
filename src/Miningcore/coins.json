@@ -626,6 +626,14 @@
         "explorerTxLink": "https://explorer.crionic.org/tx/{0}",
         "explorerAccountLink": "https://explorer.crionic.org/address/{0}"
     },
+    "luckycoin": {
+        "name": "Luckycoin",
+        "symbol": "LKC",
+        "family": "bitcoin",
+        "website": "https://coin.crionic.org/",
+        "twitter": "",
+        "telegram": "",
+    },
     "danecoin": {
         "name": "Danecoin",
         "canonicalName": "Danecoin",
