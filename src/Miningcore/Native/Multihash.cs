@@ -199,4 +199,7 @@ public static unsafe class Multihash
     [DllImport("libmultihash", EntryPoint = "memehash_export", CallingConvention = CallingConvention.Cdecl)]
     public static extern void memehash(byte* input, void* output, uint inputLength);
 
+    [DllImport("libmultihash", EntryPoint = "yespowerblake256_export", CallingConvention = CallingConvention.Cdecl)]
+    public static extern void yespowerblake256(byte* input, void* output, uint inputLength);
+
 }
