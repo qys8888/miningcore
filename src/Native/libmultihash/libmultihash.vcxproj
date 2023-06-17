@@ -265,6 +265,7 @@
     <ClInclude Include="yespower\sha256.h" />
     <ClInclude Include="yespower\sysendian.h" />
     <ClInclude Include="yespower\yespower.h" />
+    <ClInclude Include="yespower-blake256.h" />
     <ClInclude Include="x11.h" />
     <ClInclude Include="x13.h" />
     <ClInclude Include="x14.h" />
@@ -373,6 +374,7 @@
     <ClCompile Include="yespower\yespower-blake2b.c" />
     <ClCompile Include="yespower\yespower-combined.c" />
     <ClCompile Include="yespower\yespower-platform.c" />
+    <ClCompile Include="yespower-blake256.c" />
     <ClCompile Include="x11.c" />
     <ClCompile Include="x13.c" />
     <ClCompile Include="x14.c" />
